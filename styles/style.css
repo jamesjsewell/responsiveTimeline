@@ -1,0 +1,101 @@
+.entry{
+  box-sizing: border-box;
+	font-size: 0
+  
+}
+.infoBox{
+  background: #6cb0de;
+  width: 65%;
+  display: inline-block;
+  padding: 10px;
+  vertical-align: bottom;
+
+}
+.details{
+  float: left;
+  display: inline-block; 
+}
+.dateAndTime{
+  padding: 5px;
+  margin: 10px 10px 10px 10px;
+}
+.dateAndTime p{
+  color: grey;
+  margin: 0px;
+  float: right;
+}
+
+.icon {
+  width: 50px;
+  height: 50px; 
+
+  position: absolute;
+  top: 24%;
+  left: 10%;
+}
+
+.iconCircle {
+  margin: 23px 27px 5px 10px;
+  float: left;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background: #6cb0de;
+  border-radius: 50%;
+  border: 4px solid #c2e1f5; 
+  color: white;  
+  padding: 5px;
+  position: relative;
+
+}
+
+h1{
+  font-family: Roboto;
+  font-size: 39px;
+  margin: 0px;
+  color: #6cb0de;
+}
+h2{
+  color: white;
+  font-family: Roboto;
+  font-size: 22px; 
+  margin: 0px 0px 10px 0px;
+}
+p{
+  font-family: Roboto;
+  color: white;
+  font-size: 11px;  
+  padding: 0px;
+}
+.entry{
+  width: 100%;
+  margin: 10px 0px 0px 0px;
+}
+@media (max-width: 768px) {
+  .entry{
+    width: 100%;
+  }
+  .iconCircle {
+    display: block;
+  }
+  .details{
+    display: block; 
+    width: 57%;
+  }
+  .infoBox{
+    display: block;
+  }
+  
+  .dateAndTime p{
+    color: white;
+  }
+  .dateAndTime h1{
+    color: white;
+  } 
+}
+@media (max-width: 420px) {
+  .entry{
+    width: 420px;
+  } 
+  
+}  
